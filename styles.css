@@ -23,11 +23,11 @@
 
 .image-stack__item--top {
     float: left;
-    width: 66%;
+    width: auto;
     margin-right: -100%;
     padding-top: 15%; // arbitrary
     position: relative;
-    z-index: 1;
+    z-index: 10;
 }
 
 .image-stack__item--bottom {
@@ -37,7 +37,7 @@
 
 .imgCarton {
     height: 2000px;
-    width: 100% !important;
+    position: absolute;
     display: block;
     background-image: url('images/juiceframe.svg');
     z-index: 1;
@@ -45,8 +45,8 @@
 
 .imgCartonInternal {
     height: 2000px;
-    width: 100% !important;
+    position: absolute;
     display: block;
     background-image: url('images/juiceframegradient.svg');
-    z-index: 999;
+    z-index: 2;
 }
